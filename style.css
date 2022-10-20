@@ -1,0 +1,99 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    margin-left: 210px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 33px;
+    font-size: 15px;
+}
+
+.nav a:hover{
+    color: #FD8558;
+}
+
+.header{
+    display: flex;
+    padding: 26px 86px;
+}
+
+/* section_first start */
+
+.first_section{
+    position: relative;
+    text-align: center;
+}
+
+.text_and_buttons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.background img{
+    width: 100%;
+}   
+
+.text p{
+    font-size: 70px;
+    color: #fff;
+}
+.buttons button{
+    border: 2px solid #FD8558;
+    color: #fff;
+    height: 56px;
+    width: 154px;
+    background-color: Transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttons button:hover{
+    background-color: #FD8558;
+    color: #fff;
+}
+
+/* section about word start */
+
+.about_word{
+    font-size: 150px;
+    color: #F7F7F7;
+    display: flex;
+    margin: 10px;
+}
+/* section about word end */
+
+/* section two start */
+
+.section_two{
+    display: flex;
+    justify-content: space-around;
+}
+
+.orange_text{
+    color: #FD8558;
+    font-size: 13px;
+}
+
+.grey_text{
+    color: #999999;
+    text-align: justify;
+}
+
+.left_info{
+    font-size: 40px;
+    text-align: justify;
+}
+
+.right_info{
+    font-size: 18px;
+    width: 550px;
+}
+/* section two end */
